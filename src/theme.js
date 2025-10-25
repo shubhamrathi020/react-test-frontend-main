@@ -1,0 +1,141 @@
+export const lightTheme = {
+  colors: {
+    primary: "#3B82F6",
+    primaryHover: "#2563EB",
+    secondary: "#6B7280",
+    success: "#10B981",
+    warning: "#F59E0B",
+    error: "#EF4444",
+    background: "#FFFFFF",
+    surface: "#F9FAFB",
+    border: "#E5E7EB",
+    text: {
+      primary: "#111827",
+      secondary: "#6B7280",
+      disabled: "#9CA3AF",
+    },
+    input: {
+      background: "#FFFFFF",
+      border: "#D1D5DB",
+      focus: "#3B82F6",
+    },
+  },
+  spacing: {
+    xs: "0.25rem",
+    sm: "0.5rem",
+    md: "1rem",
+    lg: "1.5rem",
+    xl: "2rem",
+    xxl: "3rem",
+  },
+  borderRadius: {
+    sm: "0.25rem",
+    md: "0.5rem",
+    lg: "0.75rem",
+    xl: "1rem",
+  },
+  shadows: {
+    sm: "0 1px 2px 0 rgba(0, 0, 0, 0.05)",
+    md: "0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06)",
+    lg: "0 10px 15px -3px rgba(0, 0, 0, 0.1), 0 4px 6px -2px rgba(0, 0, 0, 0.05)",
+  },
+  typography: {
+    fontFamily: {
+      sans: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+      mono: 'JetBrains Mono, Consolas, "Liberation Mono", Menlo, monospace',
+    },
+    fontSize: {
+      xs: "0.75rem",
+      sm: "0.875rem",
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+    },
+    fontWeight: {
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+    },
+  },
+  breakpoints: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
+  },
+};
+
+export const darkTheme = {
+  colors: {
+    primary: "#60A5FA",
+    primaryHover: "#3B82F6",
+    secondary: "#9CA3AF",
+    success: "#34D399",
+    warning: "#FBBF24",
+    error: "#F87171",
+    background: "#111827",
+    surface: "#1F2937",
+    border: "#374151",
+    text: {
+      primary: "#F9FAFB",
+      secondary: "#D1D5DB",
+      disabled: "#6B7280",
+    },
+    input: {
+      background: "#374151",
+      border: "#4B5563",
+      focus: "#60A5FA",
+    },
+  },
+  spacing: {
+    xs: "0.25rem",
+    sm: "0.5rem",
+    md: "1rem",
+    lg: "1.5rem",
+    xl: "2rem",
+    xxl: "3rem",
+  },
+  borderRadius: {
+    sm: "0.25rem",
+    md: "0.5rem",
+    lg: "0.75rem",
+    xl: "1rem",
+  },
+  shadows: {
+    sm: "0 1px 2px 0 rgba(0, 0, 0, 0.3)",
+    md: "0 4px 6px -1px rgba(0, 0, 0, 0.4), 0 2px 4px -1px rgba(0, 0, 0, 0.3)",
+    lg: "0 10px 15px -3px rgba(0, 0, 0, 0.4), 0 4px 6px -2px rgba(0, 0, 0, 0.3)",
+  },
+  typography: {
+    fontFamily: {
+      sans: 'Inter, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif',
+      mono: 'JetBrains Mono, Consolas, "Liberation Mono", Menlo, monospace',
+    },
+    fontSize: {
+      xs: "0.75rem",
+      sm: "0.875rem",
+      base: "1rem",
+      lg: "1.125rem",
+      xl: "1.25rem",
+      "2xl": "1.5rem",
+      "3xl": "1.875rem",
+      "4xl": "2.25rem",
+    },
+    fontWeight: {
+      normal: "400",
+      medium: "500",
+      semibold: "600",
+      bold: "700",
+    },
+  },
+  breakpoints: {
+    sm: "640px",
+    md: "768px",
+    lg: "1024px",
+    xl: "1280px",
+  },
+};
