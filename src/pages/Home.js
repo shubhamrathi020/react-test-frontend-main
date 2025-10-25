@@ -172,6 +172,7 @@ const Home = () => {
         <HeroContent>
           <HeroTitle>{t("welcome")}</HeroTitle>
           <HeroTitle>{t("This is main branch")}</HeroTitle>
+          <HeroTitle>{t("This is dev1 branch")}</HeroTitle>
           <HeroSubtitle>
             A modern React application with authentication,
             internationalization, theme switching, and role-based access
