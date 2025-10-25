@@ -7,6 +7,7 @@ import LanguageSwitcher from "../components/LanguageSwitcher";
 import ThemeSwitcher from "../components/ThemeSwitcher";
 import Button from "../components/ui/Button";
 import Card from "../components/ui/Card";
+import Footer from "../components/Footer";
 
 const HeroSection = styled.section`
   min-height: 100vh;
@@ -235,6 +236,8 @@ const Home = () => {
           ))}
         </FeaturesGrid>
       </FeaturesSection>
+
+      <Footer />
     </>
   );
 };
